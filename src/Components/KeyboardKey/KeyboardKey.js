@@ -8,6 +8,7 @@ function clearCalculator() {
 function calculatorKey(element) {
     let display_calculator = document.getElementById("display_calculator").value;
     switch(element){
+        case '0':
         case '1':
         case '2':
         case '3':
@@ -33,7 +34,6 @@ function calculatorKey(element) {
             clearCalculator();
             break;
     }
-    
 }
 
 

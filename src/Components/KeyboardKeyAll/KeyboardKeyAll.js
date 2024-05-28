@@ -45,6 +45,7 @@ function executeCalculator() {
     strCalculator = strCalculator.replace(".",",");
     result = strCalculator;
     document.getElementById("display_calculator").value = result;
+    document.getElementById("sentence_calculator").value = result;
 }
 
 const KeyboardKeyAll = (props) => {
